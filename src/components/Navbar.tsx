@@ -3,7 +3,7 @@ import { ImCart } from "react-icons/im";
 import { FiMenu } from "react-icons/fi";
 import Link from "next/link";
 
-const Header = () => {
+const Navbar = () => {
   return (
     <div className="w-full h-20 lg:h-28 border-b-[1px] border-gray-500 text-black lg:text-white bg-white lg:bg-transparent">
       <div className="max-w-screen-2xl h-full mx-auto px-4 flex items-center justify-between">
@@ -55,4 +55,4 @@ const Header = () => {
     </div>
   );
 };
-export default Header;
+export default Navbar;
